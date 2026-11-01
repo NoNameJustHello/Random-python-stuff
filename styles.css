@@ -1,0 +1,46 @@
+.php{
+  width: 100px;
+  border-radius: 50px;
+}
+.background{
+  min-width: 100%;
+  width: auto;
+  opacity: 0.5;
+}
+.bottom-left{
+  position: fixed;
+  bottom: 0px ;
+  left: 0px; 
+}
+.bottom-leftier{
+  position: fixed;
+  bottom: 0px;
+  left:50px;
+}
+.bottom-right{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.container{
+  position: relative;
+  text-align: center;
+}
+.centered-absolute{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.instructions {
+  color: blue;
+}
+.steps{
+  color:blueviolet;
+}
+.final{
+  color : red
+}
+#grad{
+  background-image: linear-gradient(to right, rgba(0, 0, 255, 0.5), rgba(75, 0, 130, 0.5), rgba(238, 130, 238, 0.5));
+}
